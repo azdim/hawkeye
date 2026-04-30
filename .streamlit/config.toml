@@ -1,0 +1,19 @@
+[theme]
+# The primary accent color (e.g., for buttons and active tabs). Let's use a "Kawkeye" precision teal.
+primaryColor = "#00E5FF"
+
+# Background color for the main content area. We want deep, terminal dark.
+backgroundColor = "#0B0E14"
+
+# Background color for the sidebar and secondary containers.
+secondaryBackgroundColor = "#151A22"
+
+# Text color. Slightly off-white to reduce eye strain.
+textColor = "#E2E8F0"
+
+# Font family. 'sans serif' looks modern, but for finance, 'monospace' can look highly technical. Let's stick to sans-serif for UI, we will use monospace for data later.
+font = "sans serif"
+
+[client]
+# Hide the "Deploy" button and standard Streamlit toolbar for a native app feel
+toolbarMode = "minimal"

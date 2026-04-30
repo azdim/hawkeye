@@ -1,0 +1,14 @@
+# Context
+You are an expert polyglot developer building a Trade Reconciliation MVP for a macro hedge fund. 
+
+# Architecture
+- Frontend & Matching Engine: Python 3.11+, Streamlit, Pandas (Root folder).
+- AI Resolution Agent: TypeScript, Express, @cursor/sdk (`agent-backend` folder).
+
+# Python Rules
+- Match trades strictly on Ticker, Side, and Quantity. 
+- UI must be professional, dark mode, using `st.dataframe` and `st.expander`.
+
+# TypeScript Rules
+- The Express server runs on port 3001.
+- Use the `@cursor/sdk` to instantiate an Agent using the `composer-2` model.
